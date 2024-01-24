@@ -1,0 +1,120 @@
+.main{
+    margin-top: 6vw;
+    height: 80%;
+    width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.projectleft h1{
+    font-size: 4vw;
+    margin: 0 41vw;
+}
+
+
+.projectleft{
+    width: 50%;
+    height: 100%;
+}
+.projectright{
+     width: 50%;
+     height: 100%;
+}
+
+
+.rightprojectima{
+    height: 35vw;
+    width: 100%;
+    margin: 4vw 4vw;
+}
+
+
+
+/* Card.css */
+
+.card {
+    width: 25vw; /* Adjust viewport width for card width */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 2vw 4vw; /* Adjust viewport width for margin */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  
+    /* Hover effect */
+    &:hover {
+      transform: scale(1.03); /* Slightly smaller on hover */
+    }
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 30vh; /* Adjust viewport height for image height */
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 1vw; /* Adjust viewport width for padding */
+  }
+  
+  .card-heading {
+    font-size: 1.5vw; /* Adjust viewport width for font size */
+    margin-bottom: 0.5vw; /* Adjust viewport width for margin */
+  }
+  
+  .card-description {
+    font-size: 1vw; /* Adjust viewport width for font size */
+    color: #555;
+  }
+  .gitlink{
+    background-color: rgb(37, 103, 221);
+  }  
+
+  @media (max-width:600px) {
+    .main{
+      display: flex;
+   
+    }
+    .card {
+      width: 50vw; /* Adjust viewport width for card width */
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      margin: 2vw 20vw; /* Adjust viewport width for margin */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease-in-out;
+    
+      /* Hover effect */
+      &:hover {
+        transform: scale(1.03); /* Slightly smaller on hover */
+      }
+    }
+    
+    .card-image {
+      width: 100%;
+      height: 20vh; /* Adjust viewport height for image height */
+      object-fit: cover;
+    }
+    
+    .card-content {
+      padding: 1vw; /* Adjust viewport width for padding */
+      font-size: 8vw;
+    }
+    
+    .card-heading {
+      font-size: 6vw; /* Adjust viewport width for font size */
+      margin-bottom: 0.5vw; /* Adjust viewport width for margin */
+    }
+    
+    .card-description {
+      font-size: 3vw; /* Adjust viewport width for font size */
+
+      color: #555;
+    }
+    .gitlink{
+      background-color: rgb(37, 103, 221);
+    }  
+  .rightprojectima{
+    display: none;
+  }
+   
+  }

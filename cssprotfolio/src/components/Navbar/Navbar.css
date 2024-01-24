@@ -1,0 +1,45 @@
+.nav{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5vw;
+}
+
+.nav .myname{
+    font-size: 2vw;
+    font-weight: 700;
+}
+.listitems {
+    font-size: 1vw;
+    font-weight: 700;
+    gap: 4vw;
+    display: flex;
+     align-items: center;
+}
+.nav img{
+    height: 0.8vw;
+    display: none;
+}
+.nav h4{
+    cursor: pointer;
+}
+
+@media (max-width:600px) {
+    .nav{
+        padding: 0 6vw;
+    }
+  .nav  .myname{
+        font-size: 4vw;
+        font-weight: 1400;
+    }
+    .nav .image{
+        height: 4vw;
+        display: block;
+        font-size: 2vw;
+    }
+    .listitems h4{
+        font-size: 2vw;
+        display: none;
+    }
+}
